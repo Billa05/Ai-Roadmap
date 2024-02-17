@@ -19,7 +19,7 @@ export default function Nav() {
       </a>
       <a
         className="flex flex-col items-center justify-center text-xs text-black opacity-60 hover:opacity-100 transition-opacity"
-        href="../frontend-d"
+        href="../frontendd"
       >
         <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 16.933 16.933" id="menu"><path d="M12.271 1.323H1.984c-1.1-.042-1.1 1.63 0 1.588H12.23c1.08.042 1.122-1.588.042-1.588zM1.984 7.673c-1.058 0-1.058 1.587 0 1.587h5.8c1.08 0 1.08-1.587 0-1.587zm0 6.35c-1.058 0-1.058 1.587 0 1.587h12.997c1.058 0 1.058-1.587 0-1.587z"></path></svg>
         Menu

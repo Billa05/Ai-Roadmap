@@ -14,7 +14,7 @@ function App() {
           <Route path="/" element={<Topics />} />
           <Route path="/frontend" element={<Layout />} />
           <Route path="/tree" element={<Layout />} />
-          <Route path="/frontend-d" element={<Entry />} />
+          <Route path="/frontendd" element={<Entry />} />
           <Route path="/full-stack" element={<Layout />} />
           <Route path="/ai-and-data-scientist" element={<Layout />} />
           <Route path="/software-architect" element={<Layout />} />
