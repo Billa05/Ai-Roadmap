@@ -3,33 +3,33 @@ import React from 'react';
 import Tree from 'react-d3-tree';
 
 const data = {
-  name: 'CEO',
+  name: 'Full Stack Developer',
   children: [
     {
-      name: 'Manager',
+      name: 'Frontend',
       attributes: {
-        department: 'Production',
+        progress: "66%",
       },
       children: [
         {
-          name: 'Foreman',
+          name: 'Html',
           attributes: {
-            department: 'Fabrication',
+            progress: "80%",
           },
           children: [
             {
-              name: 'Worker',
+              name: 'projects',
             },
           ],
         },
         {
-          name: 'Foreman',
+          name: 'CSS',
           attributes: {
-            department: 'Assembly',
+            progress: "70%",
           },
           children: [
             {
-              name: 'Worker',
+              name: 'projects',
             },
           ],
         },
