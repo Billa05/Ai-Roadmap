@@ -40,8 +40,18 @@ const data = {
 
 export default function Branching() {
   return (
-    <div id="treeWrapper" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100vw', height: '100vh'}}>
-      <Tree data={data} orientation='vertical' zoomable={false} draggable={true} />
+    <div id="treeWrapper" style={{ width: '100vw', height: '100vh', position: 'absolute', top: 0, left: 0 }}>
+      <Tree 
+        data={data} 
+        orientation='vertical' 
+        zoomable={false} 
+        draggable={false} 
+        translate={{ x: window.innerWidth / 2, y: 50 }} // Adjust y value as needed
+        translateExtent={[
+          [0, 0],
+          [window.innerWidth, window.innerHeight]
+        ]}
+      />
     </div>
   );
 }
