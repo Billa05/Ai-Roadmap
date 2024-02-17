@@ -49,22 +49,21 @@ export default function Topics() {
                     <CustomButton>Software Architect</CustomButton>
                     <CustomButton>Flutter</CustomButton>
                     <CustomButton>React Native</CustomButton>
-                    <CustomButton>MLOps</CustomButton>
+                    
                 </div>
                 <div className="flex flex-col gap-4">
                     <CustomButton>Backend</CustomButton>
                     <CustomButton>Android</CustomButton>
                     <CustomButton>Blockchain</CustomButton>
-                    <CustomButton>ASP.NET Core</CustomButton>
+                    <CustomButton>MLOps</CustomButton>
                     <CustomButton>Cyber Security</CustomButton>
                     <CustomButton>Game Developer</CustomButton>
-                    <CustomButton>+ Create your own Roadmap</CustomButton>
+        
                 </div>
                 <div className="flex flex-col gap-4">
                     <CustomButton>DevOps</CustomButton>
                     <CustomButton>PostgreSQL</CustomButton>
                     <CustomButton>QA</CustomButton>
-                    <CustomButton>C++</CustomButton>
                     <CustomButton>UX Design</CustomButton>
                     <CustomButton>Technical Writer</CustomButton>
                 </div>

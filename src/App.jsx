@@ -31,7 +31,6 @@ function App() {
           <Route path="/devops" element={<Layout />} />
           <Route path="/postgresql" element={<Layout />} />
           <Route path="/qa" element={<Layout />} />
-          <Route path="/c-plus-plus" element={<Layout />} />
           <Route path="/ux-design" element={<Layout />} />
           <Route path="/technical-writer" element={<Layout />} />
         </Routes>

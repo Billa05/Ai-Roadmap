@@ -1,6 +1,6 @@
 export default function Nav() {
   return (
-    <nav className="grid grid-cols-3 justify-items-center fixed bottom-0 w-1/2 h-16 left-1/4 backdrop-filter backdrop-blur-lg bg-opacity-40 rounded-full bg-slate-100">
+    <nav className="grid grid-cols-4 justify-items-center fixed bottom-0 w-1/2 h-16 left-1/4 backdrop-filter backdrop-blur-lg bg-opacity-40 rounded-full bg-slate-100">
       <a
         className="flex flex-col items-center justify-center text-xs text-black opacity-60 hover:opacity-100 transition-opacity"
         href="#"
@@ -10,7 +10,7 @@ export default function Nav() {
       </a>
       <a
         className="flex flex-col items-center justify-center text-xs text-black opacity-60 hover:opacity-100 transition-opacity"
-        href="../tree"
+        href="/tree"
       >
         <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" data-name="Layer 1" id="git-branch">
           <path d="M37.1 15.14a3.39 3.39 0 1 0-4.32 3.23c-.33 5.11-6.63 5.53-8.6 5.53a10.42 10.42 0 0 0-8.7 4.81V15.85a3.39 3.39 0 1 0-1.65 0v16a.41.41 0 0 1 0 .09v1.83a3.39 3.39 0 1 0 1.65 0v-1.31c.09-.28 2.29-6.76 8.66-6.76 4.92 0 10.15-1.94 10.41-7.32a3.39 3.39 0 0 0 2.55-3.24Zm-24.17-2.56a1.73 1.73 0 1 1 1.73 1.73 1.72 1.72 0 0 1-1.73-1.73ZM16.38 37a1.73 1.73 0 1 1-1.72-1.72A1.73 1.73 0 0 1 16.38 37Zm17.33-20.14a1.73 1.73 0 1 1 1.73-1.72 1.72 1.72 0 0 1-1.73 1.72Z"></path>
@@ -19,7 +19,14 @@ export default function Nav() {
       </a>
       <a
         className="flex flex-col items-center justify-center text-xs text-black opacity-60 hover:opacity-100 transition-opacity"
-        href="../frontendd"
+        href="#"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 101 101" id="add"><path d="M50.5 16.4c-18.8 0-34.1 15.3-34.1 34.1s15.3 34.1 34.1 34.1 34.1-15.3 34.1-34.1-15.3-34.1-34.1-34.1zm0 63.4c-16.1 0-29.3-13.1-29.3-29.3s13.1-29.3 29.3-29.3c16.1 0 29.3 13.1 29.3 29.3S66.6 79.8 50.5 79.8z"></path><path d="M66.2 47.8H52.9V34.5c0-1.3-1.1-2.4-2.4-2.4-1.3 0-2.4 1.1-2.4 2.4v13.3H34.8c-1.3 0-2.4 1.1-2.4 2.4s1.1 2.4 2.4 2.4h13.3v13.3c0 1.3 1.1 2.4 2.4 2.4 1.3 0 2.4-1.1 2.4-2.4V52.6h13.3c1.3 0 2.4-1.1 2.4-2.4s-1.1-2.4-2.4-2.4z"></path></svg>
+        Add
+      </a>
+      <a
+        className="flex flex-col items-center justify-center text-xs text-black opacity-60 hover:opacity-100 transition-opacity"
+        href="/frontendd"
       >
         <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 16.933 16.933" id="menu"><path d="M12.271 1.323H1.984c-1.1-.042-1.1 1.63 0 1.588H12.23c1.08.042 1.122-1.588.042-1.588zM1.984 7.673c-1.058 0-1.058 1.587 0 1.587h5.8c1.08 0 1.08-1.587 0-1.587zm0 6.35c-1.058 0-1.058 1.587 0 1.587h12.997c1.058 0 1.058-1.587 0-1.587z"></path></svg>
         Menu

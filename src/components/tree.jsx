@@ -2,6 +2,7 @@ import { document } from 'postcss';
 import React from 'react';
 import Tree from 'react-d3-tree';
 
+// data will be fetched from the backend
 const data = {
   name: 'Full Stack Developer',
   children: [
@@ -39,6 +40,10 @@ const data = {
 };
 
 export default function Branching() {
+  
+  // keep track of the current node
+  // const [current, setCurrent] = useState("");
+
   return (
     <div id="treeWrapper" style={{ width: '100vw', height: '100vh', position: 'absolute', top: 0, left: 0 }}>
       <Tree 
