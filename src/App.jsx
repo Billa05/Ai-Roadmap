@@ -3,6 +3,7 @@ import './App.css'
 import Topics from './components/topic'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Layout from './components/layout'
+import Entry from './components/entry'
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Topics />} />
           <Route path="/frontend" element={<Layout />} />
+          <Route path="/tree" element={<Layout />} />
+          <Route path="/frontend-d" element={<Entry />} />
           <Route path="/full-stack" element={<Layout />} />
           <Route path="/ai-and-data-scientist" element={<Layout />} />
           <Route path="/software-architect" element={<Layout />} />
