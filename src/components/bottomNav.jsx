@@ -1,6 +1,6 @@
 export default function Nav() {
   return (
-    <nav className="grid grid-cols-3 justify-items-center fixed bottom-0 w-1/2 h-16 left-1/4 bg-transparent border border-black rounded-full">
+    <nav className="grid grid-cols-3 justify-items-center fixed bottom-0 w-1/2 h-16 left-1/4 backdrop-filter backdrop-blur-lg bg-opacity-40 rounded-full bg-slate-100">
       <a
         className="flex flex-col items-center justify-center text-xs text-black opacity-60 hover:opacity-100 transition-opacity"
         href="#"
