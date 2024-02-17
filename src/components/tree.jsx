@@ -32,7 +32,7 @@ const data = {
               name: 'projects',
             },
           ],
-        },
+        },{name:'JavaScript',attributes:{progress:"60%",},children:[{name:'Event handling'},{name:"Asynchronous programming"}],},
       ],
     },
   ],
