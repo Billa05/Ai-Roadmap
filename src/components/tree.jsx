@@ -75,8 +75,27 @@ export default function Branching() {
 
                     <span className="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
 
-                    <div className="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full" onClick={(e) => e.stopPropagation()}>
-                        <h1>Node</h1>
+                    <div className="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full text-black" onClick={(e) => e.stopPropagation()}>
+                      <h2>Quests</h2>
+                      <br></br>
+                      <div>
+                        <label>
+                          <input type="checkbox" value="Arrays"/>
+                          Arrays
+                        </label>
+                      </div>
+                      <div>
+                        <label>
+                          <input type="checkbox" value="Callback Functions"/>
+                          Callback Functions
+                        </label>
+                      </div>
+                      <div>
+                        <label>
+                          <input type="checkbox" value="Async Nature"/>
+                          Async Nature
+                        </label>
+                      </div>
                     </div>
                 </div>
             </div>
